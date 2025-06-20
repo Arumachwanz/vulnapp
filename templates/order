@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pemesanan - Kantin Sanapati</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Form Pemesanan</h2>
+    <form method="POST">
+        <input type="text" name="customer" placeholder="Nama Pemesan"><br>
+        <select name="menu">
+            <option value="Mie Singel">Mie Singel</option>
+            <option value="Mie Double">Mie Double</option>
+            <option value="Nasi Goreng">Nasi Goreng</option>
+            <option value="Bakso">Bakso</option>
+            <option value="Jus">Jus</option>
+            <option value="Es Teh">Es Teh</option>
+            <option value="Gorengan">Gorengan</option>
+        </select><br>
+        <button type="submit">Pesan</button>
+    </form>
+</body>
+</html>

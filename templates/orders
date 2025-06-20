@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Pesanan - Kantin Sanapati</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Daftar Pesanan</h2>
+    <ul>
+        {% for order in orders %}
+        <li>{{ order[0] }} memesan {{ order[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

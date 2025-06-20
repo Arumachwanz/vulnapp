@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beranda - Kantin Sanapati</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Selamat datang di Kantin Sanapati</h2>
+    <ul>
+        <li><a href="/order">Pesan Makanan</a></li>
+        <li><a href="/orders?id={{ session['user_id'] }}">Lihat Pesanan Saya</a></li>
+    </ul>
+</body>
+</html>
